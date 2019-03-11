@@ -46,7 +46,6 @@ strong{
 p{
     font-weight: 100;
     max-width: 30em;
-    margin: 0;
     font-size: 1em;
     letter-spacing: 1px;
     margin-top: 5px;
@@ -56,6 +55,15 @@ p{
 #text{
     padding: 25px;
 }
+ul{
+    list-style: none;
+    display: inline-block;
+    margin: -15px 0;
+    padding: 1px;
+}
+li {
+    display: inline-block;
+}
 a{
     color:#2374dd;
     text-decoration: none;
@@ -63,7 +71,4 @@ a{
 }
 a:hover{
     color:#ecf0f1;
-}
-ul{
-    list-style: none;
 }
